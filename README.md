@@ -1,6 +1,10 @@
 # Ez-Merc-Intergalactic
 Capstone project created for Promineo Tech's Data Engineering program. Utilized AWS tools and services to create a pipeline to move, clean, store, and analyze data that was scraped and created using Python.
 
+##### Cooper Williams
+##### Created: 3/23/2023
+##### Last updated: 3/23/2023
+
 ## 15 Step Process:
 #### Step 1: Created Business Plan
 Formed necessary steps to convey the various steps in the business process 
