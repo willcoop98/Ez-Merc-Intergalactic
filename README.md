@@ -24,8 +24,11 @@ Used Glue ETL Job to transfer raw data from RDS instance to S3 data lake, fillin
 Inspected data in Athena to check the data quality
 #### Step 11: Cleaned data
 Used Glue ETL Job to correct data issues and moved clean data into data lake
-#### Step 12: Created data warehouse
-
-#### Step 13: Set up schema
-#### Step 14: Ingested clean data from data lake into data warehouse
+#### Step 12: Updated data catalog
+Created a Glue crawler to get updated data into Glue catalog
+#### Step 13: Created data warehouse
+Set up AWS Redshift cluster
+#### Step 14: Ingested clean data from data catalog into data warehouse
+Imported updated Glue catalog, creating and populating Redshift cluster schema
 #### Step 15: Visualized data from warehouse using analyzation software
+Used Visual Paradigm to visualize data from Redshift cluster
